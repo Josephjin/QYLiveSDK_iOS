@@ -12,10 +12,10 @@ QYLiveSDK（以下简称SDK） 是金山云为广大iOS开发者提供的集视�
 * 2、SDK目前暂时不支持bitcode。请在xcodeproj-->BuildSetting-->Build Options 的Enable Bitcode 设置成NO。
 * 3、SDK目前暂时不支持HTPPS，请在工程的info.plist中添加App Transport Security Settings,并在之下添加Allow Arbitrary Loads，并设置成YES。
 
-##集成步骤
-* 1、使用CocoaPods 导入 SDK.
-pod 'QYLiveSDK', '~> 1.0.0',之后pod install，成功导入之后即可使用。
-* 2、直接下载SDK手动导入
+##集成步骤（三选一）
+* 1、使用CocoaPods 导入 动态SDK: pod 'QYLiveSDK_Dynamic', '~> 0.3.1',之后pod install，成功导入之后即可使用。
+* 2、使用CocoaPods 导入 动态SDK: pod 'QYLiveSDK_Static', '~> 0.3.1',之后pod install，成功导入之后即可使用。
+* 3、直接下载SDK手动导入
 
 ##添加依赖库
 SDK中引入了一些常用的第三方库，如果开发者的工程中包含以下的某个第三方库，不必要重复导入，如果没有请导入。
