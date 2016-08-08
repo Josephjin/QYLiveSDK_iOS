@@ -14,7 +14,7 @@ QYLiveSDK（以下简称SDK） 是金山云为广大iOS开发者提供的集视�
 
 ##集成步骤（三选一）
 * 1、使用CocoaPods 导入 动态SDK: pod 'QYLiveSDK_Dynamic', '~> 0.3.1',之后pod install，成功导入之后即可使用。
-* 2、使用CocoaPods 导入 动态SDK: pod 'QYLiveSDK_Static', '~> 0.3.1',之后pod install，成功导入之后即可使用。
+* 2、使用CocoaPods 导入 静态SDK: pod 'QYLiveSDK_Static', '~> 0.3.1',之后pod install，成功导入之后即可使用。
 * 3、直接下载SDK手动导入
 
 ##添加依赖库
