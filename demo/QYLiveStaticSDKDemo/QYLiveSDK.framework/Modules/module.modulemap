@@ -1,0 +1,6 @@
+framework module QYLiveSDK {
+  umbrella header "QYLiveSDK.h"
+
+  export *
+  module * { export * }
+}
